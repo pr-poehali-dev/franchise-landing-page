@@ -193,7 +193,7 @@ export default function Index() {
             className="text-[48px] md:text-[72px] lg:text-[88px] font-extrabold leading-[1.0] tracking-tight text-kv-dark mb-4"
             style={fadeUp(heroRef.inView, 0.1)}
           >
-            приносит прибыль<br />стабильно
+            приносит прибыль<br /><span style={{ background: "linear-gradient(135deg, #6366F1 0%, #8B5CF6 100%)", WebkitBackgroundClip: "text", WebkitTextFillColor: "transparent", fontWeight: 900 }}>стабильно</span>
           </h2>
 
           <p
