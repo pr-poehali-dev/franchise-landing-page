@@ -125,8 +125,10 @@ export default function Index() {
             >
               <span className="text-white font-bold text-xs">К</span>
             </div>
-            <span className="font-semibold text-kv-dark text-[15px] tracking-tight">Квант</span>
-            <span className="text-kv-gray-mid text-[13px] ml-1">/ франшиза</span>
+            <div className="flex flex-col">
+              <span className="font-semibold text-kv-dark text-[15px] tracking-tight leading-none">Квант / AI-менеджмент</span>
+              <span className="text-kv-gray-mid text-[10px] leading-none mt-0.5">будущее уже в реальности</span>
+            </div>
           </div>
 
           <nav className="hidden md:flex items-center gap-7">
