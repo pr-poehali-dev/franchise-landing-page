@@ -234,17 +234,17 @@ export default function Index() {
 
           {/* Stats */}
           <div className="flex flex-wrap gap-10 mt-16 pt-10 border-t border-kv-border" style={fadeUp(heroRef.inView, 0.45)}>
-            <div className="flex flex-col">
+            <div className="flex flex-col items-center">
               <span className="text-[36px] font-extrabold text-kv-dark leading-none">1 млрд ₽</span>
               <span className="text-kv-gray text-[14px] mt-1">капитализация</span>
             </div>
-            <div className="flex flex-col">
+            <div className="flex flex-col items-center">
               <span className="text-[36px] font-extrabold text-kv-dark leading-none">4 месяца</span>
               <span className="text-kv-gray text-[14px] mt-1">окупаемость</span>
             </div>
-            <div className="flex flex-col">
-              <span className="text-[36px] font-extrabold leading-none" style={{ background: "linear-gradient(135deg, #6366F1 0%, #8B5CF6 100%)", WebkitBackgroundClip: "text", WebkitTextFillColor: "transparent" }}>Гарантия успеха</span>
-              <span className="text-kv-gray text-[14px] mt-1">по договору</span>
+            <div className="flex flex-col items-center">
+              <span className="text-[36px] font-extrabold leading-none" style={{ background: "linear-gradient(135deg, #6366F1 0%, #8B5CF6 100%)", WebkitBackgroundClip: "text", WebkitTextFillColor: "transparent" }}>90%+</span>
+              <span className="text-kv-gray text-[14px] mt-1">довольных клиентов</span>
             </div>
           </div>
         </div>
