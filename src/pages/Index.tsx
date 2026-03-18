@@ -183,29 +183,36 @@ export default function Index() {
         <div className="absolute bottom-1/3 left-1/4 w-64 h-64 rounded-full opacity-15 blur-3xl pointer-events-none" style={{ background: "radial-gradient(circle, #8B5CF6, transparent)" }} />
 
         <div className="relative max-w-5xl mx-auto w-full">
-          <div className="inline-flex items-center gap-2 bg-kv-accent-bg border border-indigo-100 rounded-full px-4 py-1.5 mb-8 text-[12px] font-medium text-kv-accent" style={fadeUp(heroRef.inView, 0)}>
-            <span className="w-1.5 h-1.5 rounded-full bg-kv-accent animate-pulse" />
-            Приём партнёров открыт · 2026
-          </div>
-
           <h1
-            className="text-[48px] md:text-[72px] lg:text-[88px] font-extrabold leading-[1.0] tracking-tight text-kv-dark mb-6"
-            style={fadeUp(heroRef.inView, 0.1)}
+            className="text-[48px] md:text-[72px] lg:text-[88px] font-extrabold leading-[1.0] tracking-tight text-kv-dark mb-4"
+            style={fadeUp(heroRef.inView, 0.05)}
           >
-            Ваш бизнес<br />
-            <span style={{ background: "linear-gradient(135deg, #6366F1 0%, #8B5CF6 100%)", WebkitBackgroundClip: "text", WebkitTextFillColor: "transparent" }}>
-              в порядке.
-            </span>
-            <br />Каждый день.
+            Бизнес наших клиентов
           </h1>
+          <h2
+            className="text-[64px] md:text-[96px] lg:text-[112px] font-black leading-[1.0] tracking-tight mb-6"
+            style={{ ...fadeUp(heroRef.inView, 0.1), background: "linear-gradient(135deg, #6366F1 0%, #8B5CF6 100%)", WebkitBackgroundClip: "text", WebkitTextFillColor: "transparent" }}
+          >
+            приносит прибыль<br />стабильно
+          </h2>
 
           <p
-            className="text-kv-gray text-[17px] md:text-[19px] leading-relaxed max-w-xl mb-10"
+            className="text-kv-gray text-[17px] md:text-[19px] leading-relaxed max-w-2xl mb-3"
             style={fadeUp(heroRef.inView, 0.2)}
           >
-            Франшиза Квант — это готовый бизнес на платформе операционного менеджмента.
-            Возврат инвестиций от <strong className="text-kv-dark font-semibold">12 месяцев</strong>, прогнозируемая прибыль
-            и полная поддержка на каждом этапе.
+            За счёт франшизы Квант — уникальной платформы для операционного менеджмента.
+          </p>
+          <p
+            className="text-kv-dark text-[17px] md:text-[19px] leading-relaxed max-w-2xl mb-10 font-medium"
+            style={fadeUp(heroRef.inView, 0.25)}
+          >
+            С нами бизнес развивается — без{" "}
+            <span style={{ background: "linear-gradient(135deg, #6366F1 0%, #8B5CF6 100%)", WebkitBackgroundClip: "text", WebkitTextFillColor: "transparent", fontWeight: 700 }}>хаоса</span>
+            , без{" "}
+            <span style={{ background: "linear-gradient(135deg, #6366F1 0%, #8B5CF6 100%)", WebkitBackgroundClip: "text", WebkitTextFillColor: "transparent", fontWeight: 700 }}>стресса</span>
+            ,{" "}
+            <span style={{ background: "linear-gradient(135deg, #6366F1 0%, #8B5CF6 100%)", WebkitBackgroundClip: "text", WebkitTextFillColor: "transparent", fontWeight: 700 }}>стабильно</span>
+            .
           </p>
 
           <div className="flex flex-col sm:flex-row gap-3" style={fadeUp(heroRef.inView, 0.3)}>
