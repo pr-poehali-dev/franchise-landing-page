@@ -20,8 +20,7 @@ export default {
 		},
 		extend: {
 			fontFamily: {
-				sans: ['Golos Text', 'sans-serif'],
-				mono: ['IBM Plex Mono', 'monospace'],
+				sans: ['Inter', 'sans-serif'],
 			},
 			colors: {
 				border: 'hsl(var(--border))',
@@ -57,16 +56,22 @@ export default {
 					DEFAULT: 'hsl(var(--card))',
 					foreground: 'hsl(var(--card-foreground))'
 				},
-				kvant: {
-					dark: '#0A0E1A',
-					navy: '#0D1526',
-					blue: '#1B4FD8',
-					'blue-light': '#3B82F6',
-					accent: '#4F8EF7',
-					gray: '#8892A4',
-					'gray-light': '#BDC5D4',
-					line: '#1E2A3D',
-					white: '#F0F4FF',
+				kv: {
+					bg: '#F7F8FA',
+					white: '#FFFFFF',
+					black: '#1A1A1A',
+					dark: '#111827',
+					gray: '#6B7280',
+					'gray-light': '#E5E7EB',
+					'gray-mid': '#9CA3AF',
+					accent: '#6366F1',
+					'accent-light': '#818CF8',
+					'accent-bg': '#EEF2FF',
+					purple: '#8B5CF6',
+					blue: '#3B82F6',
+					'blue-light': '#DBEAFE',
+					border: '#E5E7EB',
+					card: '#FFFFFF',
 				}
 			},
 			borderRadius: {
