@@ -233,17 +233,19 @@ export default function Index() {
           </div>
 
           {/* Stats */}
-          <div className="flex flex-wrap gap-8 mt-16 pt-10 border-t border-kv-border" style={fadeUp(heroRef.inView, 0.45)}>
-            {[
-              { val: "47+", label: "партнёров в сети" },
-              { val: "12 мес", label: "средний ROI" },
-              { val: "94%", label: "партнёров продлевают" },
-            ].map((s) => (
-              <div key={s.val} className="flex items-baseline gap-3">
-                <span className="text-[36px] font-extrabold text-kv-dark leading-none">{s.val}</span>
-                <span className="text-kv-gray text-[14px]">{s.label}</span>
-              </div>
-            ))}
+          <div className="flex flex-wrap gap-10 mt-16 pt-10 border-t border-kv-border" style={fadeUp(heroRef.inView, 0.45)}>
+            <div className="flex flex-col">
+              <span className="text-[36px] font-extrabold text-kv-dark leading-none">1 млрд ₽</span>
+              <span className="text-kv-gray text-[14px] mt-1">капитализация</span>
+            </div>
+            <div className="flex flex-col">
+              <span className="text-[36px] font-extrabold text-kv-dark leading-none">4 месяца</span>
+              <span className="text-kv-gray text-[14px] mt-1">окупаемость</span>
+            </div>
+            <div className="flex flex-col">
+              <span className="text-[36px] font-extrabold text-kv-dark leading-none">Гарантия успеха</span>
+              <span className="text-kv-gray text-[14px] mt-1">по договору</span>
+            </div>
           </div>
         </div>
       </section>
