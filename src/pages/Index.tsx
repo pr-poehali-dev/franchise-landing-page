@@ -253,7 +253,7 @@ export default function Index() {
             style={{ opacity: heroSection.inView ? 1 : 0, transition: "opacity 0.6s" }}
           >
             <span className="w-1.5 h-1.5 rounded-full bg-kvant-blue-light animate-pulse" />
-            Приём партнёров открыт · 2024
+            Приём партнёров открыт · 2026
           </div>
 
           <h1
