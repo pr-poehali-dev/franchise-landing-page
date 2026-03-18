@@ -243,7 +243,7 @@ export default function Index() {
               <span className="text-kv-gray text-[14px] mt-1">окупаемость</span>
             </div>
             <div className="flex flex-col items-center">
-              <span className="text-[36px] font-extrabold leading-none" style={{ background: "linear-gradient(135deg, #6366F1 0%, #8B5CF6 100%)", WebkitBackgroundClip: "text", WebkitTextFillColor: "transparent" }}>90%+</span>
+              <span className="text-[36px] font-extrabold text-kv-dark leading-none">90%+</span>
               <span className="text-kv-gray text-[14px] mt-1">довольных клиентов</span>
             </div>
           </div>
