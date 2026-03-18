@@ -190,8 +190,8 @@ export default function Index() {
             Бизнес наших клиентов
           </h1>
           <h2
-            className="text-[64px] md:text-[96px] lg:text-[112px] font-black leading-[1.0] tracking-tight mb-6"
-            style={{ ...fadeUp(heroRef.inView, 0.1), background: "linear-gradient(135deg, #6366F1 0%, #8B5CF6 100%)", WebkitBackgroundClip: "text", WebkitTextFillColor: "transparent" }}
+            className="text-[48px] md:text-[72px] lg:text-[88px] font-extrabold leading-[1.0] tracking-tight text-kv-dark mb-4"
+            style={fadeUp(heroRef.inView, 0.1)}
           >
             приносит прибыль<br />стабильно
           </h2>
@@ -200,7 +200,7 @@ export default function Index() {
             className="text-kv-gray text-[17px] md:text-[19px] leading-relaxed max-w-2xl mb-3"
             style={fadeUp(heroRef.inView, 0.2)}
           >
-            За счёт франшизы Квант — уникальной платформы для операционного менеджмента.
+            За счёт франшизы Квант — уникальной платформы для операционного менеджмента, которая помогла уже более чем <strong className="text-kv-dark font-semibold">2 000 компаниям</strong> стать лучше.
           </p>
           <p
             className="text-kv-dark text-[17px] md:text-[19px] leading-relaxed max-w-2xl mb-10 font-medium"
