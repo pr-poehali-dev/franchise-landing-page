@@ -312,12 +312,12 @@ export default function Index() {
 
             <div className="grid grid-cols-2 gap-4" style={fadeUp(termsRef.inView, 0.2)}>
               {[
-                { label: "Паушальный взнос", val: "от 500 000 ₽", note: "разово при подписании" },
-                { label: "Роялти", val: "15%", note: "от ежемесячной выручки" },
-                { label: "ROI", val: "12–14 мес", note: "средний по партнёрам" },
-                { label: "Льготный период", val: "3 месяца", note: "роялти 8% на старте" },
-                { label: "Срок договора", val: "3 года", note: "с правом продления" },
-                { label: "Эксклюзив", val: "Ваш регион", note: "закрепляется за вами" },
+                { label: "Паушальный взнос", val: "от 600 000 ₽", note: "единоразово при подписании" },
+                { label: "Роялти", val: "20%", note: "от ежемесячной выручки" },
+                { label: "ROI", val: "2–6 мес", note: "средний по партнёрам" },
+                { label: "Лиды от нас", val: "50+ контактов", note: "даём клиентов в месяц" },
+                { label: "Срок договора", val: "Бессрочный", note: "без ограничений по времени" },
+                { label: "Гарантия успеха", val: "По договору", note: "юридически закреплено" },
               ].map((t, i) => (
                 <div key={i} className="bg-kv-white rounded-2xl p-5 border border-kv-border hover:border-indigo-200 hover:shadow-card transition-all duration-200">
                   <div className="text-kv-gray-mid text-[11px] font-medium uppercase tracking-wide mb-2">{t.label}</div>
