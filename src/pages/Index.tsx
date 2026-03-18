@@ -127,7 +127,7 @@ export default function Index() {
             </div>
             <div className="flex flex-col">
               <span className="font-semibold text-kv-dark text-[15px] tracking-tight leading-none">Квант / AI-менеджмент</span>
-              <span className="text-kv-gray-mid text-[10px] leading-none mt-0.5">будущее уже в реальности</span>
+              <span className="text-kv-gray text-[11px] font-bold leading-none mt-1">будущее уже в реальности</span>
             </div>
           </div>
 
